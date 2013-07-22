@@ -25,15 +25,16 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Only for professional websites
 * No Javacript or Ajax, built in html5 for fast page load times and no errors or conflicts. Uses latest Facebook Html5 API
 * Facebook Fan Pages or Application Pages options:
-Facebook Fan Page or Application Address: Insert your Facebook Address link
-Facebook Application ID number, optional: your facebook application id number
-Plugin Width
-Plugin Height
-Display Stream: Yes or No
-Display Facebook User Faces: Yes or No
-Display Facebook Header: Yes or No
-Color Scheme: Light or Dark
-Display Border: Yes or No
+Facebook Fan Page or Application Address:
+- Insert your Facebook Address link
+- Facebook Application ID number, optional: your facebook application id number
+- Plugin Width
+- Plugin Height
+- Display Stream: Yes or No
+- Display Facebook User Faces: Yes or No
+- Display Facebook Header: Yes or No
+- Color Scheme: Light or Dark
+- Display Border: Yes or No
 
 **The Ultimate facebook plugin for any wordpress administrator**
 
