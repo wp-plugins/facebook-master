@@ -1,9 +1,9 @@
 === Facebook Master ===
 Contributors: Techgasp
-Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook website, facebook profile, facebook application
+Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
 Tested up to: 3.5.2
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -13,7 +13,7 @@ Facebook Master let's you have full control over all good facebook social plugin
 
 Facebook Master plugin for is now available for any serious wordpress webmaster.
 
-Facebook Master let's you have full control over all good facebook social plugins in one go, likes, share, stream, profile pictures, color scheme, border color, facebook header, width, height, etc.
+Facebook Master let's you have full control over all good facebook social plugins in one go, facebook likes, facebook share, facebook stream, faecbook activity, color scheme and border, facebook header, width, height, etc.
 
 Packed with display options to adapt to any template widget position but still very user friendly and with great label instructions. If your objective is to go viral and exponentially increase visits or likes to your facebook website fan page or application, then this plugin is a must have.
 
@@ -22,19 +22,10 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 **Main Features**
 
 * The ultimate plugin that takes your website to the next facebook viral level
+* If it's facebook likes you want, facebook likes you will get
 * Only for professional websites
 * No Javacript or Ajax, built in html5 for fast page load times and no errors or conflicts. Uses latest Facebook Html5 API
-* Facebook Fan Pages or Application Pages options:
-	*Facebook Fan Page or Application Address
-	*Insert your Facebook Address link
-	*Facebook Application ID number, optional: your facebook application id number
-	*Plugin Width
-	*Plugin Height
-	*Display Stream: Yes or No
-	*Display Facebook User Faces: Yes or No
-	*Display Facebook Header: Yes or No
-	*Color Scheme: Light or Dark
-	*Display Border: Yes or No
+* Facebook Fan Pages or Application Pages options: - Facebook Fan Page or Application Address: Insert your Facebook Address link - Facebook Application ID number, optional: your facebook application id number - Plugin Width - Plugin Height - Display Stream: Yes or No - Display Facebook User Faces: Yes or No - Display Facebook Header: Yes or No - Color Scheme: Light or Dark - Display Border: Yes or No
 
 **The Ultimate facebook plugin for any wordpress administrator**
 
@@ -77,10 +68,10 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * This plugin is intended to show and connect your professional wordpress website with the Facebook Fan Page you have created for it. It also allows you to connect your Facebook Application created for your wordpress website.
 
 = Can I show my facebook group? =
-* No
+* No, it's intended for facebook pages and applications
 
 = Can I show my personal facebook user profile? =
-* No
+* No, it's intended for facebook pages and applications
 
 = Issues with display =
 * Please update to latest version. Up-to-date API's are available
@@ -117,6 +108,10 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 2.1 =
+* Updates to readme.txt
+* html5 Speed Optimization for mobile
 
 = 2.0 =
 * Stable Release
