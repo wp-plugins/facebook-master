@@ -2,7 +2,7 @@
 /**
 Plugin Name: Facebook Master
 Plugin URI: http://wordpress.techgasp.com/facebook-master/
-Version: 2.1
+Version: 2.2
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: facebook-master
@@ -32,7 +32,11 @@ define('TECHGASP_FACEBOOKMASTER_ID', 'facebook-master-options');
 // DEFINE PLUGIN NICK
 define('TECHGASP_FACEBOOKMASTER_NICK', 'Faceboook Master');
 
+// HOOK WIDGET
 require_once('techgasp-facebookmaster-widget.php');
+
+// HOOK INVITATION
+require_once('techgasp-facebookmaster-invite.php');
 
     class techgasp_facebookmaster
     {
@@ -97,7 +101,7 @@ require_once('techgasp-facebookmaster-widget.php');
 		*/
 		public static function content_with_quote($content)
 		{
-			$quote = '<p><blockquote>' . get_option('tsm_quote') . '</blockquote></p>';
+			$quote = '<p>' . get_option('tsm_quote') . '</p>';
 			return $content . $quote;
 		}
 		
