@@ -79,10 +79,15 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 = For Facebook Fan Pages and Applications =
 * This plugin is intended to show and connect your professional wordpress website with the Facebook Fan Page you have created for it. It also allows you to connect your Facebook Application created for your wordpress website.
 
-= Can I show my facebook group? =
-* No, it's intended for facebook pages and applications
-
 = Can I show my personal facebook user profile? =
+* No, Facebook Master is intended for facebook pages and application
+* If you want to show facebook user profiles visit [Facebook Profile Master](http://wordpress.techgasp.com/facebook-profile-master)
+
+= Can I show facebook comments? =
+* No, Facebook Master is intended for facebook pages and application
+* If you want to show facebook comments visit [Facebook Comments Master](http://wordpress.techgasp.com/facebook-comments-master)
+
+= Can I show my facebook group? =
 * No, it's intended for facebook pages and applications
 
 = Issues with display =
