@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
 Tested up to: 3.6
-Stable tag: 2.3
+Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -13,9 +13,11 @@ Facebook Master let's you have full control over all good facebook social plugin
 
 Facebook Master plugin for is now available for any serious wordpress webmaster.
 
-Facebook Master let's you have full control over all good facebook social plugins in one go, facebook likes, facebook share, facebook stream, faecbook activity, color scheme and border, facebook header, width, height, etc.
+Facebook Master let's you have full control over all good facebook social plugins in one go, facebook likes, facebook share, facebook stream, facebook activity, color scheme and border, facebook header, width, height, etc.
 
 Packed with display options to adapt to any template widget position but still very user friendly and with great label instructions. If your objective is to go viral and exponentially increase visits or likes to your facebook website fan page or application, then this plugin is a must have.
+
+**The Ultimate facebook plugin for any wordpress administrator**
 
 IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of errors and conflicts
 
@@ -27,8 +29,6 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * No Javacript or Ajax, built in html5 for fast page load times and no errors or conflicts. Uses latest Facebook Html5 API
 * Facebook Fan Pages or Application Pages options: - Facebook Fan Page or Application Address: Insert your Facebook Address link - Facebook Application ID number, optional: your facebook application id number - Plugin Width - Plugin Height - Display Stream: Yes or No - Display Facebook User Faces: Yes or No - Display Facebook Header: Yes or No - Color Scheme: Light or Dark - Display Border: Yes or No
 
-**The Ultimate facebook plugin for any wordpress administrator**
-
 **LITE Version Contains:**
 
 * Display or hide Widget Title
@@ -37,8 +37,6 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Facebook Application ID number
 
 **ADVANCED Version Contains:**
-
-[Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
 
 * Display or hide Widget Title
 * Display or hide Facebook Social Plugin
@@ -51,15 +49,29 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Display Border
 * Plugin Width
 * Plugin Height
-* Shortcode Framework. Publish widget inside pages and posts
+* Shortcode Framework v2. Publish widget inside pages and posts
+* [Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
 
-[VISIT OUR WEBSITE FOR MORE PROFESSIONAL PLUGINS](http://wordpress.techgasp.com)
+**ONLINE DEMO**
+
+* Right of the page, sidebar widget
+* Inside the post, with shortcode framework v2
+* [Demo Link](http://wordpress.techgasp.com/facebook-master/)
+
+**More High Quality Plugins?**
+
+* For professional wordpress websites
+* Tested for fast page load times and SEO
+* Errors and conflicts free. NO JAVASCRIPT or AJAX
+* [Click Here](http://wordpress.techgasp.com/buy-all-techgasp-wordpress-plugins/)
+
 
 == Installation ==
 
-1. Upload everything into the "/wp-content/plugins/" directory of your WordPress site.
+1. Use the Wordpress Installer, Updater.
 2. Activate in the "Plugins" admin panel.
 3. Visit the "Widget Page | Facebook Master" to configure the settings and your template widget position.
+4. [Facebook Master Documentation](http://wordpress.techgasp.com/facebook-master-documentation)
 
 
 == Frequently Asked Questions ==
@@ -77,21 +89,19 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Please update to latest version. Up-to-date API's are available
 
 = Where is Shortcode? =
-* ADVANCED Version contains all plugin option and the Shortcode Framework, publish widget inside pages and posts
-* [Advaced Version Link](http://wordpress.techgasp.com/facebook-master/)
+* Advanced Version contains all plugin options and the Shortcode Framework v2, publish widget inside pages and posts
+* [Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
+* Insert the code into the page or post. [facebook-master]
 
-= Insert Widget in Pages or Posts =
-* ADVANCED Version constains the shortcode framework
-* Insert the code into the page or post. [facebookmaster id=x]
-* "x" stands for your sidebar number, ie sidebar-1, final code would be:
-* [facebookmaster id=sidebar-1]
-* [Advaced Version Link](http://wordpress.techgasp.com/facebook-master/)
+= What's this Shortcode Framework v2 =
+* It's a framework developed by TechGasp and built upon wordpress marvellous resources.
+* Allows users to quickly and easily display plugins or widgets inside their pages and posts.
+* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v2.
+* [About Shortcode Framework v2](http://wordpress.techgasp.com/new-wordpress-framework-from-techgasp/)
 
 = Need More Help =
-* [ABOUT DOCUMENTATION](http://wordpress.techgasp.com/category/support/)
-* [ABOUT INSTALLATION](http://wordpress.techgasp.com)
-* [SUPPORT](http://wordpress.techgasp.com/support)
-* [Visit our website for more professional plugins](http://wordpress.techgasp.com)
+* [Facebook Master Documentation](http://wordpress.techgasp.com/facebook-master-documentation)
+* [Support](http://wordpress.techgasp.com/support)
 
 
 == Screenshots ==
@@ -104,10 +114,16 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 6. Facebook Master Show Faces, Hide Stream, small widget area.
 7. Facebook Master Hide Faces, Show Stream.
 8. Facebook Master Hide Faces, Hide Stream, Hide Header, Hide Border.
-9. Widget inside pages and posts. Shortcode framework implementation. Facebook Master inside a page. Hide Title, Hide Stream.
+9. Widget inside pages and posts. Shortcode framework v2 implementation. Facebook Master inside a page. Hide Title, Hide Stream.
 
 
 == Changelog ==
+
+= 4.0 =
+* Implementing New Shortcode Framework v2. Shortcode box will now be available when editing a page or a post
+
+= 3.0 =
+* Implementing advanced updater
 
 = 2.3 =
 * Patching strict standards in WP_DEBUG mode
@@ -133,6 +149,9 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Upgrade Notice ==
+
+= 4.0 =
+* IMPORTANT Upgrade to new TechGasp Plugin Framework
 
 = 2.0 =
 * IMPORTANT Upgrade to Stable release

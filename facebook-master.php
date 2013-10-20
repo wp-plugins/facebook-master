@@ -2,7 +2,7 @@
 /**
 Plugin Name: Facebook Master
 Plugin URI: http://wordpress.techgasp.com/facebook-master/
-Version: 2.3
+Version: 4.0
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: facebook-master
@@ -24,22 +24,23 @@ License: GPL2 or later
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-if(!class_exists('techgasp_facebookmaster')) :
+
+if(!class_exists('facebook_master')) :
 
 // DEFINE PLUGIN ID
-define('TECHGASP_FACEBOOKMASTER_ID', 'facebook-master-options');
+define('FACEBOOK_MASTER_ID', 'facebook-master');
 
 // DEFINE PLUGIN NICK
-define('TECHGASP_FACEBOOKMASTER_NICK', 'Faceboook Master');
+define('FACEBOOK_MASTER_NICK', 'Facebook Master');
 
 // HOOK WIDGET
-require_once('techgasp-facebookmaster-widget.php');
+require_once('includes/facebook-master-widget.php');
 
 // HOOK INVITATION
-require_once('techgasp-facebookmaster-invite.php');
 
-    class techgasp_facebookmaster
-    {
+// HOOK SHORTCODE
+
+	class facebook_master{
 		/** function/method
 		* Usage: return absolute file path
 		* Arg(1): string
@@ -54,9 +55,9 @@ require_once('techgasp-facebookmaster-invite.php');
 		* Arg(0): null
 		* Return: void
 		*/
-		public static function techgasp_facebookmaster_register()
+		public static function facebook_master_register()
 		{
-			register_setting(TECHGASP_FACEBOOKMASTER_ID.'_options', 'tsm_quote');
+			register_setting(FACEBOOK_MASTER_ID, 'tsm_quote');
 		}
 		/** function/method
 		* Usage: hooking (registering) the plugin menu
@@ -66,8 +67,8 @@ require_once('techgasp-facebookmaster-invite.php');
 		public static function menu()
 		{
 			// Create menu tab
-			add_options_page(TECHGASP_FACEBOOKMASTER_NICK.' Plugin Options', TECHGASP_FACEBOOKMASTER_NICK, 'manage_options', TECHGASP_FACEBOOKMASTER_ID.'_options', array('techgasp_facebookmaster', 'options_page'));
-			add_filter( 'plugin_action_links', array('techgasp_facebookmaster', 'techgasp_facebookmaster_link'), 10, 2 );
+			add_options_page(FACEBOOK_MASTER_NICK.' Plugin Options', FACEBOOK_MASTER_NICK, 'manage_options', FACEBOOK_MASTER_ID.'-admin', array('facebook_master', 'options_page'));
+			add_filter( 'plugin_action_links', array('facebook_master', 'facebook_master_link'), 10, 2 );
 		}
 		/** function/method
 		* Usage: show options/settings form page
@@ -80,20 +81,20 @@ require_once('techgasp-facebookmaster-invite.php');
 			{
 				wp_die( __('You do not have sufficient permissions to access this page.') );
 			}
-			$plugin_id = TECHGASP_FACEBOOKMASTER_ID;
+			$plugin_id = FACEBOOK_MASTER_ID;
 			// display options page
-			include(self::file_path('techgasp-facebookmaster-admin.php'));
+			include(self::file_path('includes/facebook-master-admin.php'));
 		}
 		/** function/method
-                * Usage: show options/settings form page
-                * Arg(0): null
-                * Return: void
-                */
-		 public static function techgasp_facebookmaster_widget()
-                {
-                        // display widget page
-                        include(self::file_path('techgasp-facebookmaster-widget.php'));
-                }
+		* Usage: show options/settings form page
+		* Arg(0): null
+		* Return: void
+		*/
+		 public static function facebook_master_widget()
+		{
+			// display widget page
+			include(self::file_path('includes/facebook-master-widget.php'));
+		}
 		/** function/method
 		* Usage: filtering the content
 		* Arg(1): string
@@ -104,23 +105,24 @@ require_once('techgasp-facebookmaster-invite.php');
 			$quote = '<p>' . get_option('tsm_quote') . '</p>';
 			return $content . $quote;
 		}
-		
 		// Add settings link on plugin page
-		public static function techgasp_facebookmaster_link($links, $file) {
-		static $this_plugin;
-		if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
-		if ($file == $this_plugin){
-		$settings_link = '<a href="' . admin_url( 'options-general.php?page='.TECHGASP_FACEBOOKMASTER_ID).'_options' . '">' . __( 'Settings' ) . '</a>';
-		array_unshift($links, $settings_link);
-		}
+		public static function facebook_master_link($links, $file) {
+			static $this_plugin;
+			if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
+			if ($file == $this_plugin){
+				$settings_link = '<a href="' . admin_url( 'options-general.php?page='.FACEBOOK_MASTER_ID).'-admin' . '">' . __( 'Settings' ) . '</a>';
+				array_unshift($links, $settings_link);
+			}
 		return $links;
 		}
+		// Advanced Updater
 	}
-		if ( is_admin() )
+	if ( is_admin() )
 		{
-		add_action('admin_init', array('techgasp_facebookmaster', 'techgasp_facebookmaster_register'));
-		add_action('admin_menu', array('techgasp_facebookmaster', 'menu'));
+		add_action('admin_init', array('facebook_master', 'facebook_master_register'));
+		add_action('admin_menu', array('facebook_master', 'menu'));
+		
 		}
-		add_filter('the_content', array('techgasp_facebookmaster', 'content_with_quote'));
+	add_filter('the_content', array('facebook_master', 'content_with_quote'));
 endif;
 ?>
