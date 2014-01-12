@@ -5,6 +5,13 @@ add_action( 'widgets_init', 'facebook_master_widget' );
 function facebook_master_widget() {
 register_widget( 'facebook_master_widget' );
 }
+//Hook Styke
+add_action( 'wp_enqueue_scripts', 'facebook_master_wcss' );
+//load css for shortcode
+function facebook_master_wcss() {
+	wp_register_style( 'facebook_master_wcss', plugins_url('facebook-master-style.css', __FILE__) );
+	wp_enqueue_style( 'facebook_master_wcss' );
+}
 
 class facebook_master_widget extends WP_Widget {
 	function facebook_master_widget() {
@@ -25,10 +32,13 @@ class facebook_master_widget extends WP_Widget {
 		echo $before_widget;
 		
 	// Display the widget title
-		if ( $title )
+		if ( $title ){
 		echo $before_title . $name . $after_title;
+		}
+		else{
+		}
 	//Display Faceboook Master
-		if ( $show_facebookmaster )
+		if ( $show_facebookmaster ){
 		echo '<div class="fb-like-box" data-href="'.$facebookmaster_page.'" data-width="292" data-show-faces="false" data-colorscheme="light" data-stream="false" data-show-border="false" data-header="false"></div>' .
 			'<div id="fb-root"></div>' .
 			'<script>(function(d, s, id) {' .
@@ -38,6 +48,9 @@ class facebook_master_widget extends WP_Widget {
 			'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId='.$facebookmaster_appid.'";' .
 			'fjs.parentNode.insertBefore(js, fjs);' .
 			'}(document, '.$facebookmasterspacer.'script'.$facebookmasterspacer.', '.$facebookmasterspacer.'facebook-jssdk'.$facebookmasterspacer.'));</script>';
+			}
+			else{
+			}
 	echo $after_widget;
 	}
 	//Update the widget
@@ -115,7 +128,7 @@ class facebook_master_widget extends WP_Widget {
 	<p>
 	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" />
 	&nbsp;
-	<b>Facebook Width and Height</b>
+	<b>Mobile Responsive</b>
 	</p>
 	<div class="description">Only available in advanced version.</div><br>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>

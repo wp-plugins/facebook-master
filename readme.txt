@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 4.1
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -16,6 +16,10 @@ Facebook Master plugin for is now available for any serious wordpress webmaster.
 Facebook Master let's you have full control over all good facebook social plugins in one go, facebook likes, facebook share, facebook stream, facebook activity, color scheme and border, facebook header, width, height, etc.
 
 Packed with display options to adapt to any template widget position but still very user friendly and with great label instructions. If your objective is to go viral and exponentially increase visits or likes to your facebook website fan page or application, then this plugin is a must have.
+
+Both the widget and the shortcode framework are fully mobile responsive, a must for any professional website.
+
+Before giving a bad rating to this plugin, please read the differences between the Lite and Advanced Version. This is a top of the line TechGasp plugin for professional websites where SEO and page load speeds are primordial.
 
 **The Ultimate facebook plugin for any wordpress administrator**
 
@@ -35,6 +39,7 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Display or hide Facebook Social Plugin
 * Facebook Fan Page or Application Address
 * Facebook Application ID number
+* Mobile Responsive
 
 **ADVANCED Version Contains:**
 
@@ -47,8 +52,7 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Display Facebook Header
 * Color Scheme
 * Display Border
-* Plugin Width
-* Plugin Height
+* Mobile Responsive
 * Shortcode Framework v2. Publish widget inside pages and posts
 * [Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
 
@@ -123,6 +127,12 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 4.2 =
+* Fully Mobile Responsive
+* Widget functions
+* Adding Style
+* Adding index.php SEC
 
 = 4.1 =
 * Wordpress 3.8 Ready
