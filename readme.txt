@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 4.2
+Tested up to: 3.8.1
+Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -35,31 +35,54 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 **LITE Version Contains:**
 
-* Display or hide Widget Title
-* Display or hide Facebook Social Plugin
-* Facebook Fan Page or Application Address
-* Facebook Application ID number
-* Mobile Responsive
+* Display, Hide or Change any Widget Title
+
+* Facebook Master Viral Widget:
+* This handy widget display your Facebook Page or Application Like with bubble count and Send, Share button
+* Perfect widget to use anywhere and everywhere in your wordpress blog to take it to the next viral level
+* Boosts your Facebook Page or Application Likes exponentially and brings tons of new visitors and users from facebook to your wordpress website
+
+* Facebook Master Basic Fast Loading Widget:
+* Specially designed to be easy to use and deploy in your website, all settings are on auto-mode
+* Displays your Facebook Page or Application Thumbnail, Avatar plus the Facebook Like Button
+* The Basic Widget is a shorter, more compact version of the Advanced Responsive Widget
 
 **ADVANCED Version Contains:**
 
-* Display or hide Widget Title
-* Display or hide Facebook Social Plugin
-* Facebook Fan Page or Application Address
-* Facebook Application ID number
+* Display, Hide or Change any Widget Title
+
+* Facebook Master Viral Widget:
+* This handy widget display your Facebook Page or Application Like with bubble count and Send, Share button
+* Perfect widget to use anywhere and everywhere in your wordpress blog to take it to the next viral level
+* Boosts your Facebook Page or Application Likes exponentially and brings tons of new visitors and users from facebook to your wordpress website
+
+* Facebook Master Basic Fast Loading Widget:
+* Specially designed to be easy to use and deploy in your website, all settings are on auto-mode
+* Displays your Facebook Page or Application Thumbnail, Avatar plus the Facebook Like Button
+* The Basic Widget is a shorter, more compact version of the Advanced Responsive Widget
+
+* Facebook Master Advanced Responsive Widget:
+* Top of the Line professional html5 Responsive Widget
+* Fully mobile devices responsive
+* Full of Display options:
+* Display Facebook Header
 * Display Facebook User Faces
 * Display Facebook Stream
-* Display Facebook Header
-* Color Scheme
 * Display Border
-* Mobile Responsive
-* Shortcode Framework v2. Publish widget inside pages and posts
+* Change Color Scheme (facebook light or dark)
+* Advanced Mobile Responsive Mode
+* Facebook Fan Page or Application Address
+* Facebook Application ID number (optional)
+
+* Shortcode Framework v3. Universal Shortcode for all pages and posts and Individual Shortcode for each page or post
+* Shortcodes allow you to professionally display your instagram photos inside your wordpress pages and posts
 * [Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
+
 
 **ONLINE DEMO**
 
 * Right of the page, sidebar widget
-* Inside the post, with shortcode framework v2
+* Inside the post, with shortcode framework
 * [Demo Link](http://wordpress.techgasp.com/facebook-master/)
 
 **More High Quality Plugins?**
@@ -72,9 +95,9 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 == Installation ==
 
-1. Use the Wordpress Installer, Updater.
-2. Activate in the "Plugins" admin panel.
-3. Visit the "Widget Page | Facebook Master" to configure the settings and your template widget position.
+1. Use the Wordpress Installer, Updater
+2. Activate in the "Plugins" admin panel
+3. Visit the "Widget Page | Facebook Master Widgets" to configure widgets settings and your template widget positions
 4. [Facebook Master Documentation](http://wordpress.techgasp.com/facebook-master-documentation)
 
 
@@ -97,16 +120,17 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 = Issues with display =
 * Please update to latest version. Up-to-date API's are available
 
-= Where is Shortcode? =
-* Advanced Version contains all plugin options and the Shortcode Framework v2, publish widget inside pages and posts
+= Insert Shortcode in Pages or Posts =
+* Advanced Version Add-ons contain the shortcode framework v3
+* Insert the universal shortcode into any page or post. [facebook-master-un]
+* Insert the individual shortcode into any page or post. [facebook-master]
 * [Advanced Version Link](http://wordpress.techgasp.com/facebook-master/)
-* Insert the code into the page or post. [facebook-master]
 
-= What's this Shortcode Framework v2 =
-* It's a framework developed by TechGasp and built upon wordpress marvellous resources.
-* Allows users to quickly and easily display plugins or widgets inside their pages and posts.
-* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v2.
-* [About Shortcode Framework v2](http://wordpress.techgasp.com/new-wordpress-framework-from-techgasp/)
+= What's this Shortcode Framework v3 =
+* It's a framework developed by TechGasp and built upon wordpress marvellous resources
+* Allows users to quickly and easily display plugins or widgets inside their pages and posts
+* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v3
+* [About Shortcode Framework v3](http://wordpress.techgasp.com/techgasp-wordpress-framework-v3/)
 
 = Need More Help =
 * [Facebook Master Documentation](http://wordpress.techgasp.com/facebook-master-documentation)
@@ -115,18 +139,29 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 == Screenshots ==
 
-1. Facebook Master ((Light Color Scheme).
-2. Facebook Master (Dark Color Scheme).
-3. Facebook Master Large Widget Area.
-4. Facebook Master Show Faces, Hide Stream.
-5. Facebook Master Show Faces, Hide Stream, horizontal layout.
-6. Facebook Master Show Faces, Hide Stream, small widget area.
-7. Facebook Master Hide Faces, Show Stream.
-8. Facebook Master Hide Faces, Hide Stream, Hide Header, Hide Border.
-9. Widget inside pages and posts. Shortcode framework v2 implementation. Facebook Master inside a page. Hide Title, Hide Stream.
+1. Facebook Master Advanced Responsive Widget, ((Light Color Scheme).
+2. Facebook Master Advanced Responsive Widget, (Dark Color Scheme).
+3. Facebook Master Advanced Responsive Widget, larger Widget Area.
+4. Facebook Master Advanced Responsive Widget, Hide Stream.
+5. Facebook Master Advanced Responsive Widget, horizontal layout.
+6. Facebook Master Advanced Responsive Widget, small widget area.
+7. Facebook Master Viral Widget
+8. Facebook Master Basic Fast Loading Widget
+9. Shortcode inside pages and posts. Shortcode framework implementation. Facebook Master inside a page. Hide Title, Hide Stream.
 
 
 == Changelog ==
+
+= 4.3 =
+* New TechGasp Plugin Framework
+* New Plugin Menu
+* New Administrator Page
+* New Universal Shortcode that can be combined with Individual Shortcodes in Pages and Posts
+* Adding index SEC
+* New Facebook API
+* New Facebook Master Viral Widget
+* New Facebook Master Basic Fast Loading Widget
+* New Facebook Master Advanced Responsive Widget
 
 = 4.2 =
 * Fully Mobile Responsive
@@ -175,8 +210,11 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 == Upgrade Notice ==
 
+= 4.3 =
+* IMPORTANT Upgrade to new TechGasp Plugin Framework v3
+
 = 4.0 =
-* IMPORTANT Upgrade to new TechGasp Plugin Framework
+* IMPORTANT Upgrade to new TechGasp Plugin Framework v2
 
 = 2.0 =
 * IMPORTANT Upgrade to Stable release
