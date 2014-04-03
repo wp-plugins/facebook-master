@@ -62,8 +62,6 @@ class facebook_master_admin_addons_table extends WP_List_Table {
 			<td class="column-columnname"style="vertical-align:middle"><h3>Award Winning Professional Support</h3><p>Need professional help deploying this plugin? TechGasp provides 24/7 award winning professional wordpress support for all advanced version costumers and replies to support tickets usually within minutes of being received. Support Us and we will Support You.</p></td>
 			<td class="column-columnname" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-check-no.png', __FILE__); ?>" alt="<?php echo get_option('facebook_master_name'); ?>" align="left" width="200px" height="121px" style="padding:5px;"/></td>
 		</tr>
-
-
 	</tbody>
 </table>
 <?php
