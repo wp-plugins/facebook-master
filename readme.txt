@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 4.3.5
+Tested up to: 3.8.2
+Stable tag: 4.3.6
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -153,6 +153,9 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 4.3.6 =
+* Added automatic deletion of site_transients
 
 = 4.3.5 =
 * TechGasp Plugin Framework v3 Improvements and Upgrades
