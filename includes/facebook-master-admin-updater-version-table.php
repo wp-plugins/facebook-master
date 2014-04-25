@@ -71,6 +71,30 @@ else{
 }
 ?>
 		</tr>
+		<tr>
+			<td class="column-columnname" width="350" style="vertical-align:middle"><h2><b><?php echo get_option( 'facebook_master_name_framework' ); ?></b></h2></td>
+			<td class="column-columnname" style="vertical-align:middle"></td>
+			<td class="column-columnname" style="vertical-align:middle"></td>
+			<td class="column-columnname" style="vertical-align:middle">
+<?php
+if( is_multisite() ) {
+if(get_site_option( 'facebook_master_installed_version')  == get_site_option( 'facebook_master_newest_version' )){
+	echo '<img src="'.plugins_url('../images/techgasp-check-yes.png', __FILE__).'" alt="'.get_site_option('facebook_master_name').'" width="90px" style="vertical-align:bottom" /></td>';
+}
+else{
+	echo '<img src="'.plugins_url('../images/techgasp-check-no.png', __FILE__).'" alt="'.get_site_option('facebook_master_name').'" width="90px" style="vertical-align:bottom" /></td>';
+}
+}
+else{
+if(get_option( 'facebook_master_installed_version')  == get_option( 'facebook_master_newest_version' )){
+	echo '<img src="'.plugins_url('../images/techgasp-check-yes.png', __FILE__).'" alt="'.get_option('facebook_master_name').'" width="90px" style="vertical-align:bottom" /></td>';
+}
+else{
+	echo '<img src="'.plugins_url('../images/techgasp-check-no.png', __FILE__).'" alt="'.get_option('facebook_master_name').'" width="90px" style="vertical-align:bottom" /></td>';
+}
+}
+?>
+		</tr>
 	</tbody>
 </table>
 <?php

@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
 Tested up to: 3.9
-Stable tag: 4.3.6
+Stable tag: 4.3.7
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -33,11 +33,11 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * No Javacript or Ajax, built in html5 for fast page load times and no errors or conflicts. Uses latest Facebook Html5 API
 * Facebook Fan Pages or Application Pages options: - Facebook Fan Page or Application Address: Insert your Facebook Address link - Facebook Application ID number, optional: your facebook application id number - Plugin Width - Plugin Height - Display Stream: Yes or No - Display Facebook User Faces: Yes or No - Display Facebook Header: Yes or No - Color Scheme: Light or Dark - Display Border: Yes or No
 
-**LITE Version Contains:**
+**LITE Version Contains**
 
 * Display, Hide or Change any Widget Title
 
-* Facebook Master Viral Widget:
+* Facebook Master Viral Widget
 * This handy widget display your Facebook Page or Application Like with bubble count and Send, Share button
 * Perfect widget to use anywhere and everywhere in your wordpress blog to take it to the next viral level
 * Boosts your Facebook Page or Application Likes exponentially and brings tons of new visitors and users from facebook to your wordpress website
@@ -47,21 +47,21 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Displays your Facebook Page or Application Thumbnail, Avatar plus the Facebook Like Button
 * The Basic Widget is a shorter, more compact version of the Advanced Responsive Widget
 
-**ADVANCED Version Contains:**
+**ADVANCED Version Contains**
 
 * Display, Hide or Change any Widget Title
 
-* Facebook Master Viral Widget:
+* Facebook Master Viral Widget
 * This handy widget display your Facebook Page or Application Like with bubble count and Send, Share button
 * Perfect widget to use anywhere and everywhere in your wordpress blog to take it to the next viral level
 * Boosts your Facebook Page or Application Likes exponentially and brings tons of new visitors and users from facebook to your wordpress website
 
-* Facebook Master Basic Fast Loading Widget:
+* Facebook Master Basic Fast Loading Widget
 * Specially designed to be easy to use and deploy in your website, all settings are on auto-mode
 * Displays your Facebook Page or Application Thumbnail, Avatar plus the Facebook Like Button
 * The Basic Widget is a shorter, more compact version of the Advanced Responsive Widget
 
-* Facebook Master Advanced Responsive Widget:
+* Facebook Master Advanced Responsive Widget
 * Top of the Line professional html5 Responsive Widget
 * Fully mobile devices responsive
 * Full of Display options:
@@ -74,7 +74,7 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Facebook Fan Page or Application Address
 * Facebook Application ID number (optional)
 
-* TechGasp Shortcode Framework v3:
+* TechGasp Shortcode Framework v3
 * Universal Shortcode for all pages and posts, same Shortcode applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
 * Individual Shortcode for each page or post, individual customized shortcode per page or post
 * Shortcodes allow you to professionally display your plugin inside pages and posts maintaining fast page load times and excellent Google SEO
@@ -153,6 +153,10 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 4.3.7 =
+* Polishing Shortcode and widgets in show facebook faces mode. Make sure always display aligned and the correct number of faces
+* Added TechGasp Framework check in updater page
 
 = 4.3.6 =
 * Added automatic deletion of site_transients
