@@ -41,6 +41,7 @@ class facebook_master_widget_viral extends WP_Widget {
 			'js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=";' .
 			'fjs.parentNode.insertBefore(js, fjs);' .
 			'}(document, '.$facebookmasterspacer.'script'.$facebookmasterspacer.', '.$facebookmasterspacer.'facebook-jssdk'.$facebookmasterspacer.'));</script>' .
+			'<style>.fb-like span{overflow:visible !important; width:450px !important; margin-right:-375px;}</style>' .
 			'<div class="fb-like" data-href="'.$facebookmaster_url.'" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>' .
 	$after_widget;
 	}
@@ -76,7 +77,7 @@ class facebook_master_widget_viral extends WP_Widget {
 	&nbsp;
 	<b>Facebook Master Website</b>
 	</p>
-	<p><a class="button-secondary" href="http://wordpress.techgasp.com/facebook-master/" target="_blank" title="Facebook Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/facebook-master-documentation/" target="_blank" title="Facebook Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/facebook-master/" target="_blank" title="Visit Website">Get Add-ons</a></p>
+	<p><a class="button-secondary" href="http://wordpress.techgasp.com/facebook-master/" target="_blank" title="Facebook Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/facebook-master-documentation/" target="_blank" title="Facebook Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.org/plugins/facebook-master/" target="_blank" title="Facebook Master Wordpress">RATE US *****</a></p>
 	<?php
 	}
  }

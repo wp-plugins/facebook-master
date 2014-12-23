@@ -2,7 +2,7 @@
 /**
 Plugin Name: Facebook Master
 Plugin URI: http://wordpress.techgasp.com/facebook-master/
-Version: 4.3.7
+Version: 4.3.8
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: facebook-master
@@ -29,9 +29,9 @@ if(!class_exists('facebook_master')) :
 ///////DEFINE ID//////
 define('FACEBOOK_MASTER_ID', 'facebook-master');
 ///////DEFINE VERSION///////
-define( 'facebook_master_VERSION', '4.3.7' );
+define( 'facebook_master_VERSION', '4.3.8' );
 global $facebook_master_version, $facebook_master_name;
-$facebook_master_version = "4.3.7"; //for other pages
+$facebook_master_version = "4.3.8"; //for other pages
 $facebook_master_name = "Facebook Master"; //pretty name
 $facebook_master_name_framework = "TechGasp Framework 3.5";//TechGasp Framework
 if( is_multisite() ) {
