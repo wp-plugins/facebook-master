@@ -19,8 +19,8 @@ class facebook_master_admin_widgets_table extends WP_List_Table {
 
 	<tfoot>
 		<tr>
-			<th class="manage-column column-columnname" scope="col" width="300"><a class="button-primary" href="/wp-admin/widgets.php" title="To Widgets Page" style="float:left;">To Widgets Page</a></p></th>
-			<th class="manage-column column-columnname" scope="col"><a class="button-primary" href="/wp-admin/widgets.php" title="To Widgets Page" style="float:right;">To Widgets Page</a></p></th>
+			<th class="manage-column column-columnname" scope="col" width="300"><a class="button-primary" href="<?php echo get_site_url(); ?>/wp-admin/widgets.php" title="To Widgets Page" style="float:left;">To Widgets Page</a></p></th>
+			<th class="manage-column column-columnname" scope="col"><a class="button-primary" href="<?php echo get_site_url(); ?>/wp-admin/widgets.php" title="To Widgets Page" style="float:right;">To Widgets Page</a></p></th>
 		</tr>
 	</tfoot>
 
@@ -35,9 +35,13 @@ class facebook_master_admin_widgets_table extends WP_List_Table {
 		</tr>
 		<tr class="alternate">
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-facebookmaster-admin-widget-advanced.png', __FILE__); ?>" alt="<?php echo get_option('facebook_master_name'); ?>" align="left" width="300px" height="135px" style="padding:5px;"/></td>
-			<td class="column-columnname"style="vertical-align:middle"><h3>Facebook Master Advanced Responsive Widget</h3><p>"Top of the Line" Advanced Responsive Widget is the perfect way to display your Facebook Fan Page or Application with full control over visual options. <b>Display Facebook Header</b>, <b>Display Facebook User Faces</b>, <b>Display Facebook Stream</b>, <b>Display Border</b>, <b>Change Color Scheme (facebook light or dark)</b>, <b>Advanced Mobile Responsive Mode</b>, etc.</p><p>Beautifully coded in html5, this widget is <b>Fully Mobile Responsive</b>, WOW!!!. Specially suited for professional, commercial, sales websites where Fast Page Load Times and mobile presence is a must.</p><p>Check Add-ons Page.</p></td>
+			<td class="column-columnname"style="vertical-align:middle"><h3>Facebook Master Advanced Responsive Widget</h3><p>"Top of the Line" Advanced Responsive Widget is the perfect way to display your Facebook Fan Page or Application with full control over visual options. <b>Display Facebook Header</b>, <b>Display Facebook User Faces</b>, <b>Display Facebook Stream</b>, <b>Display Border</b>, <b>Change Color Scheme (facebook light or dark)</b>, <b>Advanced Mobile Responsive Mode</b>, etc.</p><p>Beautifully coded in html5, this widget is <b>Fully Mobile Responsive</b>, WOW!!!. Specially suited for professional, commercial, sales websites where Fast Page Load Times and mobile presence is a must.</p><p>Check Add-ons page.</p></td>
 		</tr>
 		<tr>
+			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-facebookmaster-admin-widget-embed-post.png', __FILE__); ?>" alt="<?php echo get_option('facebook_master_name'); ?>" align="left" width="300px" height="135px" style="padding:5px;"/></td>
+			<td class="column-columnname"style="vertical-align:middle"><h3>Facebook Master Responsive Embed Post Widget</h3><p>Embed your favourite Public Posts from User Profiles or Facebook Fan Pages.</p><p>Fully Mobile Responsive. Awesome for photos.</p><p>Check Add-ons page.</p></td>
+		</tr>
+		<tr class="alternate">
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-admin-widget-blank.png', __FILE__); ?>" alt="<?php echo get_option('amazon_master_name'); ?>" align="left" width="300px" height="135px" style="padding:5px;"/></td>
 			<td class="column-columnname"style="vertical-align:middle"><h3>Suggest a Widget</h3><p>Would you like to see your widget idea added to this plugin? Just drop us a line and we will make sure it gets included in the next release.</p><p>Get in touch with TechGasp.</p></td>
 		</tr>

@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 4.3.8
+Tested up to: 4.1.1
+Stable tag: 4.4.1.4
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -73,6 +73,11 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 * Advanced Mobile Responsive Mode
 * Facebook Fan Page or Application Address
 * Facebook Application ID number (optional)
+
+* Facebook Master Embed Post Widget
+* Embed your favourite Public Posts
+* Able to embed Profile or Facebook Fan Page posts
+* 100% Mobile Responsive. Awesome for photos.
 
 * TechGasp Shortcode Framework v3
 * Universal Shortcode for all pages and posts, same Shortcode applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
@@ -153,6 +158,29 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 4.4.1.4 =
+* Getting all widget titles network ready
+
+= 4.4.1.3 =
+* Tweaking Updater
+* Adding user customizable CSS styling to Viral Widget
+
+= 4.4.1.2 =
+* Adding Network Warnings and help texts
+
+= 4.4.1.1 =
+* Fixing uninstall, plugin deletion on wordpress network and multi-sites
+
+= 4.4.1.0 =
+* Fixing Shortcodes
+* Fixing Widgets
+* General clean-up and speed boost
+
+= 4.4.0 =
+* Wordpress multi-site or wordpress network ready
+* New screenshots and images
+* Viral Buttons tweaked
 
 = 4.3.8 =
 * New Facebook API
