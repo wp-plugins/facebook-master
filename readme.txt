@@ -2,7 +2,7 @@
 Contributors: TechGasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 Stable tag: 4.4.1.6
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
@@ -146,12 +146,12 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 == Screenshots ==
 
-1. Facebook Master Advanced Responsive Widget, ((Light Color Scheme).
-2. Facebook Master Advanced Responsive Widget, (Dark Color Scheme).
-3. Facebook Master Advanced Responsive Widget, larger Widget Area.
+1. Facebook Master Advanced Pages Widget
+2. Facebook Master Advanced Responsive Widget, ((Light Color Scheme)+ (Dark Color Scheme).
+3. Facebook Master Advanced Pages Widget medium (without page stream).
 4. Facebook Master Advanced Responsive Widget, Hide Stream.
-5. Facebook Master Advanced Responsive Widget, horizontal layout.
-6. Facebook Master Advanced Responsive Widget, small widget area.
+5. Facebook Master Advanced Pages Widget small (without page stream and user faces).
+6. Facebook Master Responsive Embed Post Widget
 7. Facebook Master Viral Widget
 8. Facebook Master Basic Fast Loading Widget
 9. Shortcode inside pages and posts. Shortcode framework implementation. Facebook Master inside a page. Hide Title, Hide Stream.
