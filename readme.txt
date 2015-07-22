@@ -3,7 +3,7 @@ Contributors: TechGasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, facebook, facebook page, facebook plugin, facebook share, facebook likes, facebook like, facebook application
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 4.4.1.6
+Stable tag: 4.4.2.0
 License: GPLv2 or later
 License URI: http://wordpress.techgasp.com/terms-conditions/ - GNU/GPL 18.Wordpress Extensions & GPL License
 
@@ -158,6 +158,11 @@ IMPORTANT: Makes no use of Javascript or Ajax to keep your website clean of erro
 
 
 == Changelog ==
+
+= 4.4.2.0 =
+* Includes several important fixes and speed-up's
+* New pre-installation flight
+* New text-domain because of updater
 
 = 4.4.1.6 =
 * New Facebook API
